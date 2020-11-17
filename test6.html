@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>programando em javascript</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>Contar passos</h1>
+        </header>
+        <section>
+            <div>
+                <p>inicio
+                  <input type="number" name="inicio" id="inicio" min="0">
+                </p>
+                <p>fim
+                  <input type="number" name="fim" id="fim" min="0">
+                </p>
+                <p>passo
+                  <input type="number" name="passo" id="passo" min="1">
+                </p>
+                <input type="button" value="contador"
+                   onclick="contador()">
+                <p>
+            </div>
+            <div id="res">
+                 preparando a contagem...
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Wendller1</p>
+        </footer>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
